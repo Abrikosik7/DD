@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WF — ТЗ</title>
+  <link rel="stylesheet" href="wireframes.css" />
+</head>
+<body>
+  <div class="wf-wrap">
+    <header class="wf-topbar">
+      <div class="wf-brand">OcOO Biohitech</div>
+      <nav class="wf-nav" aria-label="Меню">
+        <a class="wf-pill" href="wf-home.html">Главная</a>
+        <a class="wf-pill" href="wf-about.html">О проекте</a>
+        <a class="wf-pill" href="wf-services.html">Услуги</a>
+        <a class="wf-pill" href="wf-tz.html" aria-current="page">ТЗ</a>
+        <a class="wf-pill" href="wf-contacts.html">Контакты</a>
+        <a class="wf-pill" href="wireframes.html">Все wireframes</a>
+      </nav>
+    </header>
+
+    <section class="wf-page-head">
+      <h1 class="wf-h1">ТЗ — структура документа</h1>
+      <p class="wf-lead">Фокус: оглавление-якоря, требования/таблицы, критерии приёмки, действия (скачать/вопрос).</p>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Оглавление (якоря)</h2>
+      <div class="wf-box">
+        <ul class="wf-list">
+          <li>Цели</li>
+          <li>Объём работ</li>
+          <li>Функциональные требования</li>
+          <li>Нефункциональные требования</li>
+          <li>Интеграции</li>
+          <li>Контент</li>
+          <li>Критерии приёмки</li>
+          <li>Сроки / этапы</li>
+          <li>Риски / ограничения</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Секции контента</h2>
+      <div class="wf-box">
+        <div class="wf-field">Секция: Цели (абзац + список)</div>
+        <div class="wf-field" style="margin-top: 10px;">Секция: Объём работ (границы “входит/не входит”)</div>
+        <div class="wf-field" style="margin-top: 10px;">Секция: Интеграции (перечень систем + точки обмена)</div>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Требования (таблица/список)</h2>
+      <div class="wf-box">
+        <div class="wf-meta">В дизайне: таблица</div>
+        <div class="wf-row" style="margin-top: 10px;">
+          <div class="wf-box"><strong>Требование</strong><div class="wf-meta" style="margin-top:6px;">Описание</div></div>
+          <div class="wf-box"><strong>Приоритет</strong><div class="wf-meta" style="margin-top:6px;">Must/Should/Could</div></div>
+        </div>
+        <div class="wf-row" style="margin-top: 10px;">
+          <div class="wf-box"><strong>Критерий</strong><div class="wf-meta" style="margin-top:6px;">Как проверяем</div></div>
+          <div class="wf-box"><strong>Комментарий</strong><div class="wf-meta" style="margin-top:6px;">Ограничения</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Критерии приёмки (чеклист)</h2>
+      <div class="wf-box">
+        <div class="wf-field small">[ ] Критерий 1</div>
+        <div class="wf-field small" style="margin-top: 8px;">[ ] Критерий 2</div>
+        <div class="wf-field small" style="margin-top: 8px;">[ ] Критерий 3</div>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Действия</h2>
+      <div class="wf-box">
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+          <span class="wf-cta primary">Скачать PDF</span>
+          <span class="wf-cta">Задать вопрос</span>
+          <span class="wf-meta" style="align-self:center;">(опц.) “Предложить правку”</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="wf-footer">
+      <div><a href="wireframes.html">← К оглавлению wireframes</a></div>
+      <div><a href="tz.html">Открыть текущую страницу сайта →</a></div>
+    </footer>
+  </div>
+</body>
+</html>

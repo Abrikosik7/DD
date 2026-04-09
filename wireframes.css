@@ -1,0 +1,240 @@
+:root {
+  --wf-bg: #f6f7f9;
+  --wf-text: #111827;
+  --wf-muted: #6b7280;
+  --wf-line: #9ca3af;
+  --wf-surface: #ffffff;
+  --wf-accent: #2563eb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--wf-bg);
+  color: var(--wf-text);
+  line-height: 1.4;
+}
+
+a {
+  color: var(--wf-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wf-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 16px 56px;
+}
+
+.wf-topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 2px solid var(--wf-line);
+  background: var(--wf-surface);
+}
+
+.wf-brand {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.wf-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.wf-pill {
+  border: 2px solid var(--wf-line);
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: var(--wf-text);
+}
+
+.wf-pill[aria-current="page"] {
+  border-color: var(--wf-accent);
+}
+
+.wf-page-head {
+  margin-top: 18px;
+  padding: 18px 16px;
+  border: 2px dashed var(--wf-line);
+  background: #fff;
+}
+
+.wf-h1 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.wf-lead {
+  margin: 0;
+  color: var(--wf-muted);
+  max-width: 70ch;
+}
+
+.wf-grid-2 {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .wf-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wf-section {
+  margin-top: 16px;
+  padding: 14px 14px 16px;
+  border: 2px dashed var(--wf-line);
+  background: #fff;
+}
+
+.wf-section-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--wf-muted);
+}
+
+.wf-box {
+  border: 2px solid var(--wf-line);
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.wf-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 700px) {
+  .wf-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wf-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .wf-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wf-card {
+  border: 2px solid var(--wf-line);
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  min-height: 96px;
+}
+
+.wf-card h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.wf-card p {
+  margin: 0;
+  color: var(--wf-muted);
+  font-size: 13px;
+}
+
+.wf-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid var(--wf-text);
+  background: #fff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.wf-cta.primary {
+  background: var(--wf-accent);
+  border-color: var(--wf-accent);
+  color: #fff;
+}
+
+.wf-form {
+  display: grid;
+  gap: 10px;
+}
+
+.wf-field {
+  border: 2px solid var(--wf-line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: var(--wf-muted);
+  background: #fff;
+  font-size: 13px;
+}
+
+.wf-field.small {
+  padding: 8px 10px;
+}
+
+.wf-footer {
+  margin-top: 20px;
+  padding: 14px 16px;
+  border: 2px solid var(--wf-line);
+  background: var(--wf-surface);
+  color: var(--wf-muted);
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wf-meta {
+  color: var(--wf-muted);
+  font-size: 12px;
+}
+
+.wf-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--wf-muted);
+}
+
+.wf-kbd {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 12px;
+  border: 1px solid var(--wf-line);
+  background: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+}

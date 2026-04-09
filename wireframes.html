@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireframes — OcOO Biohitech</title>
+  <link rel="stylesheet" href="wireframes.css" />
+</head>
+<body>
+  <div class="wf-wrap">
+    <header class="wf-topbar">
+      <div class="wf-brand">OcOO Biohitech — Wireframes</div>
+      <nav class="wf-nav" aria-label="Wireframes навигация">
+        <a class="wf-pill" href="wf-home.html">Главная</a>
+        <a class="wf-pill" href="wf-about.html">О проекте</a>
+        <a class="wf-pill" href="wf-services.html">Услуги</a>
+        <a class="wf-pill" href="wf-tz.html">ТЗ</a>
+        <a class="wf-pill" href="wf-contacts.html">Контакты</a>
+        <a class="wf-pill" href="sitemap.html">Карта сайта</a>
+      </nav>
+    </header>
+
+    <section class="wf-page-head">
+      <h1 class="wf-h1">Каркасы основных страниц</h1>
+      <p class="wf-lead">
+        Это low‑fi wireframes для согласования структуры и повторяющихся блоков перед визуальным дизайном.
+        Открывайте страницы ниже и уточняйте состав секций/CTA/форм.
+      </p>
+      <p class="wf-meta" style="margin-top: 10px;">
+        Подсказка: элементы помечены “блоками”. На дизайн‑этапе они превращаются в компоненты (header/footer/cards/forms).
+      </p>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Страницы</h2>
+      <div class="wf-cards" role="list">
+        <article class="wf-card" role="listitem">
+          <h3>Главная</h3>
+          <p>УТП, ключевые услуги, процесс, кейсы/доверие, финальный CTA.</p>
+          <p style="margin-top: 10px;"><a href="wf-home.html">Открыть →</a></p>
+        </article>
+        <article class="wf-card" role="listitem">
+          <h3>О проекте</h3>
+          <p>Миссия/ценности, команда, документы/сертификаты, CTA.</p>
+          <p style="margin-top: 10px;"><a href="wf-about.html">Открыть →</a></p>
+        </article>
+        <article class="wf-card" role="listitem">
+          <h3>Услуги</h3>
+          <p>Категории/фильтры, список услуг, пакеты, блок гарантий, CTA.</p>
+          <p style="margin-top: 10px;"><a href="wf-services.html">Открыть →</a></p>
+        </article>
+        <article class="wf-card" role="listitem">
+          <h3>ТЗ</h3>
+          <p>Оглавление якорями, требования, критерии приёмки, скачать/вопрос.</p>
+          <p style="margin-top: 10px;"><a href="wf-tz.html">Открыть →</a></p>
+        </article>
+        <article class="wf-card" role="listitem">
+          <h3>Контакты</h3>
+          <p>Форма + блок контактов, карта/адрес, согласия, статусы отправки.</p>
+          <p style="margin-top: 10px;"><a href="wf-contacts.html">Открыть →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Повторяющиеся блоки (компоненты)</h2>
+      <div class="wf-row">
+        <div class="wf-box">
+          <strong>Header</strong>
+          <ul class="wf-list">
+            <li>Лого</li>
+            <li>Меню (5 пунктов)</li>
+            <li>Опциональный CTA (кнопка)</li>
+          </ul>
+        </div>
+        <div class="wf-box">
+          <strong>Footer</strong>
+          <ul class="wf-list">
+            <li>Ключевые ссылки</li>
+            <li>Контакты (кратко)</li>
+            <li>Юр.инфо (опционально)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="wf-row" style="margin-top: 12px;">
+        <div class="wf-box">
+          <strong>Карточки</strong>
+          <ul class="wf-list">
+            <li>Услуга (название, 1–2 строки, CTA)</li>
+            <li>Кейс (результат, метрики)</li>
+            <li>Сотрудник (имя, роль)</li>
+          </ul>
+        </div>
+        <div class="wf-box">
+          <strong>CTA‑блок</strong>
+          <ul class="wf-list">
+            <li>Заголовок + краткий текст</li>
+            <li>Primary/secondary кнопки</li>
+            <li>Опционально: контакты/срок ответа</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wf-section">
+      <h2 class="wf-section-title">Перечень UI‑элементов (к дизайну)</h2>
+      <div class="wf-grid-2">
+        <div class="wf-box">
+          <strong>Навигация / структура</strong>
+          <ul class="wf-list">
+            <li>Header: лого, пункты меню, активный пункт</li>
+            <li>Footer: ссылки, контакты</li>
+            <li>Оглавление‑якоря (страница ТЗ)</li>
+          </ul>
+        </div>
+        <div class="wf-box">
+          <strong>Кнопки</strong>
+          <ul class="wf-list">
+            <li>Primary / Secondary / Link</li>
+            <li>Disabled / Loading (состояния)</li>
+          </ul>
+        </div>
+        <div class="wf-box">
+          <strong>Формы</strong>
+          <ul class="wf-list">
+            <li>Input, Textarea, Checkbox (согласие)</li>
+            <li>Validation: error/help text</li>
+            <li>Success / Error сообщения после отправки</li>
+          </ul>
+        </div>
+        <div class="wf-box">
+          <strong>Состояния</strong>
+          <ul class="wf-list">
+            <li>Empty state (нет данных)</li>
+            <li>Error state (сбой загрузки/отправки)</li>
+            <li>404 (желательно)</li>
+          </ul>
+        </div>
+      </div>
+      <p class="wf-meta" style="margin-top: 12px;">
+        Файлы wireframes: <span class="wf-kbd">wireframes.html</span> и <span class="wf-kbd">wf-*.html</span>.
+      </p>
+    </section>
+
+    <footer class="wf-footer">
+      <div>Wireframes пакет для согласования структуры.</div>
+      <div><a href="index.html">К текущему сайту →</a></div>
+    </footer>
+  </div>
+</body>
+</html>
