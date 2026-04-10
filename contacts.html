@@ -3,30 +3,141 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакты</title>
+  <title>OcOO Biohitech — Контакты</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="logo" href="index.html">OcOO Biohitech</a>
-    <nav class="nav">
+    <div class="header-left">
+      <a class="brand" href="index.html" aria-label="OcOO Biohitech — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/>
+            <circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">OcOO Biohitech</span>
+          <span class="brand-tagline">Инженерные решения • Экология • Биотехнологии</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="Основное меню">
       <a href="index.html">Главная</a>
-      <a href="about.html">О проекте</a>
+      <a href="about.html">О компании</a>
       <a href="services.html">Услуги</a>
-      <a href="tz.html">ТЗ</a>
       <a href="contacts.html" aria-current="page">Контакты</a>
+      <a href="gallery.html">Галерея</a>
       <a href="sitemap.html" class="nav-sitemap">Карта сайта</a>
     </nav>
+
+    <div class="header-cta">
+      <a class="btn btn--ghost" href="services.html">Услуги</a>
+      <a class="btn btn--primary" href="#feedback">Оставить заявку</a>
+    </div>
   </header>
 
-  <main class="main simple-page">
-    <h1>Контакты</h1>
-    <p>Телефон, email, адрес и форма обратной связи — по необходимости.</p>
-    <p><a href="sitemap.html">← Карта сайта</a></p>
+  <main class="main">
+    <header class="page-hero" aria-labelledby="page-title">
+      <p class="eyebrow">Связь и реквизиты</p>
+      <h1 id="page-title">Контакты</h1>
+      <p class="page-hero-lead">Напишите или позвоните — уточним вводные и предложим следующий шаг. Обычно отвечаем в течение 12–20 часов в рабочие дни.</p>
+    </header>
+
+    <section class="section section--tight section--contact" aria-labelledby="contact-blocks-title">
+      <div class="section-head">
+        <h2 id="contact-blocks-title">Как с нами связаться</h2>
+        <p>Форма слева и контактные блоки справа — в одной сетке, как на главной.</p>
+      </div>
+
+      <div class="grid two">
+        <form id="feedback" class="card form" action="#" method="post" aria-labelledby="form-heading">
+          <h3 id="form-heading" class="form-title">Форма обратной связи</h3>
+          <p class="muted form-intro">Заполните поля — мы свяжемся для уточнения деталей.</p>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" required>
+          </div>
+          <div class="field">
+            <label for="contact">Телефон или email</label>
+            <input id="contact" name="contact" type="text" autocomplete="email" placeholder="+996… / name@email" required>
+          </div>
+          <div class="field">
+            <label for="company">Компания <span class="muted">(необязательно)</span></label>
+            <input id="company" name="company" type="text" autocomplete="organization" placeholder="Название организации">
+          </div>
+          <div class="field">
+            <label for="msg">Сообщение</label>
+            <textarea id="msg" name="msg" rows="5" placeholder="Задача, сроки, исходные данные, что уже сделано на объекте" required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="submit">Отправить заявку</button>
+            <a class="btn btn--secondary" href="tel:+996000000000">Позвонить</a>
+          </div>
+          <p class="form-note">Нажимая «Отправить заявку», вы соглашаетесь на обработку данных для ответа на обращение.</p>
+        </form>
+
+        <div class="contact-info-grid">
+          <div class="contact-tile">
+            <span class="contact-tile-k">Email</span>
+            <h3>Электронная почта</h3>
+            <p><a href="mailto:info@example.com">info@example.com</a> — общие вопросы и заявки.</p>
+          </div>
+
+          <div class="contact-tile">
+            <span class="contact-tile-k">Телефон</span>
+            <h3>Телефон</h3>
+            <p><a href="tel:+996000000000">+996 000 000 000</a> — будни, 09:00–18:00.</p>
+          </div>
+
+          <div class="contact-tile">
+            <span class="contact-tile-k">Адрес</span>
+            <h3>Офис / город</h3>
+            <p>Укажите фактический адрес и ориентиры для визита — замените этот текст при публикации.</p>
+          </div>
+
+          <div class="contact-tile card--soft">
+            <span class="contact-tile-k">Реквизиты</span>
+            <h3>Юридическое лицо</h3>
+            <p>OcOO «Biohitech» — ИНН / ОКПО / банковские реквизиты подставьте сюда для документооборота.</p>
+          </div>
+
+          <div class="map-ph map-ph--tall" aria-hidden="true">Карта / схема проезда — вставьте виджет или статичное изображение</div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <p><a href="sitemap.html">Карта сайта</a></p>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a class="brand brand--footer" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/>
+              <circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">OcOO Biohitech</span>
+            <span class="brand-tagline">Инженерные решения • Экология • Биотехнологии</span>
+          </span>
+        </a>
+        <p class="footer-note">© <span id="y">2026</span> OcOO Biohitech</p>
+      </div>
+      <div class="footer-right">
+        <a href="#feedback">Оставить заявку</a>
+        <a href="sitemap.html">Карта сайта</a>
+      </div>
+    </div>
   </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

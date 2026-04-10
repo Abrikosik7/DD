@@ -3,30 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>О проекте</title>
+  <title>OcOO Biohitech — О компании</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="logo" href="index.html">OcOO Biohitech</a>
-    <nav class="nav">
+    <div class="header-left">
+      <a class="brand" href="index.html" aria-label="OcOO Biohitech — на главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/>
+            <circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">OcOO Biohitech</span>
+          <span class="brand-tagline">Инженерные решения • Экология • Биотехнологии</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="Основное меню">
       <a href="index.html">Главная</a>
-      <a href="about.html" aria-current="page">О проекте</a>
+      <a href="about.html" aria-current="page">О компании</a>
       <a href="services.html">Услуги</a>
-      <a href="tz.html">ТЗ</a>
       <a href="contacts.html">Контакты</a>
+      <a href="gallery.html">Галерея</a>
       <a href="sitemap.html" class="nav-sitemap">Карта сайта</a>
     </nav>
+
+    <div class="header-cta">
+      <a class="btn btn--ghost" href="contacts.html">Получить консультацию</a>
+      <a class="btn btn--primary" href="contacts.html#feedback">Оставить заявку</a>
+    </div>
   </header>
 
-  <main class="main simple-page">
-    <h1>О проекте</h1>
-    <p>Здесь можно разместить описание проекта, миссию и ценности.</p>
-    <p><a href="sitemap.html">← Карта сайта</a></p>
+  <main class="main">
+    <header class="page-hero" aria-labelledby="page-title">
+      <p class="eyebrow">Кто мы и как работаем</p>
+      <h1 id="page-title">О компании</h1>
+      <p class="page-hero-lead">Мы объединяем инженерный подход, экологическую ответственность и биотехнологические инструменты, чтобы давать предприятиям решения, которые можно внедрить, измерить и сопровождать.</p>
+      <div class="page-hero-actions">
+        <a class="btn btn--primary" href="services.html">Наши услуги</a>
+        <a class="btn btn--secondary" href="gallery.html">Галерея проектов</a>
+      </div>
+    </header>
+
+    <section class="section section--tight" aria-labelledby="mission-title">
+      <div class="section-head">
+        <h2 id="mission-title">Миссия и фокус</h2>
+        <p class="inner-lead">Помогаем снижать риски внедрения: от предпроектной оценки до запуска и сервиса. Работаем там, где важны сроки, безопасность и устойчивость процессов.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card card--soft">
+          <h3>Миссия</h3>
+          <p class="muted">Делать сложные задачи понятными на этапах: фиксируем вводные, предлагаем варианты, согласуем критерии результата и сопровождаем после ввода в эксплуатацию.</p>
+          <div class="list">
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>Производственная эффективность и экология в одном контуре</span></div>
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>Прозрачная коммуникация и документирование решений</span></div>
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>Поддержка после запуска — регламенты и обучение</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Для кого мы полезны</h3>
+          <p class="muted">Промышленные и инфраструктурные объекты, где важны надежность, соответствие требованиям и предсказуемость бюджета.</p>
+          <div class="steps" role="list">
+            <div class="step" role="listitem"><span class="step-n">A</span><span class="step-t">Предприятия с модернизацией и вводом новых линий</span></div>
+            <div class="step" role="listitem"><span class="step-n">B</span><span class="step-t">Объекты с повышенными требованиями к экологии</span></div>
+            <div class="step" role="listitem"><span class="step-n">C</span><span class="step-t">Команды, которым нужен «единый подрядчик по смыслу»</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="stats-title">
+      <div class="section-head">
+        <h2 id="stats-title">В цифрах</h2>
+        <p>Краткие ориентиры по опыту и формату работы.</p>
+      </div>
+      <div class="stat-grid" role="list">
+        <div class="stat-card" role="listitem">
+          <div class="stat-value">10+</div>
+          <div class="stat-label">лет практики</div>
+        </div>
+        <div class="stat-card" role="listitem">
+          <div class="stat-value">50+</div>
+          <div class="stat-label">реализованных проектов</div>
+        </div>
+        <div class="stat-card" role="listitem">
+          <div class="stat-value">12–20 ч</div>
+          <div class="stat-label">типичный ответ на заявку</div>
+        </div>
+        <div class="stat-card" role="listitem">
+          <div class="stat-value">4</div>
+          <div class="stat-label">этапа: от концепции до сдачи</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="values-title">
+      <div class="section-head">
+        <h2 id="values-title">Ценности</h2>
+        <p class="inner-lead">Опорные принципы, которые сохраняют единый стиль работы на всех проектах.</p>
+      </div>
+
+      <div class="grid four">
+        <div class="card">
+          <h3>Инженерная строгость</h3>
+          <p class="muted">Расчеты, обоснования, проверяемые допущения — чтобы решение было воспроизводимым.</p>
+        </div>
+        <div class="card card--soft">
+          <h3>Экологическая осознанность</h3>
+          <p class="muted">Учитываем воздействие и ищем баланс эффективности и устойчивости.</p>
+        </div>
+        <div class="card">
+          <h3>Партнерский тон</h3>
+          <p class="muted">Согласуем ожидания заранее и держим одну линию коммуникации.</p>
+        </div>
+        <div class="card card--soft">
+          <h3>Ответственность за результат</h3>
+          <p class="muted">Сервис и сопровождение — часть логики проекта, а не «дополнение».</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" aria-labelledby="cta-about-title">
+      <div class="section-head">
+        <h2 id="cta-about-title">Обсудим задачу</h2>
+        <p>Коротко опишите контекст — предложим формат созвона и следующий шаг.</p>
+      </div>
+      <div class="page-hero-actions">
+        <a class="btn btn--primary" href="contacts.html#feedback">Связаться с нами</a>
+        <a class="btn btn--ghost" href="index.html">На главную</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <p><a href="sitemap.html">Карта сайта</a></p>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a class="brand brand--footer" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/>
+              <circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">OcOO Biohitech</span>
+            <span class="brand-tagline">Инженерные решения • Экология • Биотехнологии</span>
+          </span>
+        </a>
+        <p class="footer-note">© <span id="y">2026</span> OcOO Biohitech</p>
+      </div>
+      <div class="footer-right">
+        <a href="contacts.html#feedback">Оставить заявку</a>
+        <a href="sitemap.html">Карта сайта</a>
+      </div>
+    </div>
   </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
