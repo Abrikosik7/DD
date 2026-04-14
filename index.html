@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OcOO Biohitech — Главная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;760;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -280,6 +283,148 @@
             <div class="contact-line"><span class="contact-k">Город</span><span class="contact-v">—</span></div>
           </div>
           <div class="map-ph" aria-hidden="true">Карта / схема проезда</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ui-kit" id="ui-kit" aria-labelledby="ui-kit-title">
+      <div class="section-head">
+        <h2 id="ui-kit-title">UI‑кит (база для будущего сайта)</h2>
+        <p>Единый набор токенов и компонентов: палитра, типографика, сетка, кнопки, карточки услуг, иконки и формы. Этот блок можно использовать как “витрину” и источник стандартов.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Цветовая палитра</h3>
+          <p class="muted">Токены в CSS‑переменных: фон/поверхности/границы/акценты/статусы.</p>
+          <div class="swatches" role="list" aria-label="Цветовые токены">
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--bg)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--bg</span><span class="swatch-v">#0b1020</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--surface)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--surface</span><span class="swatch-v">#121b32</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--surface-2)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--surface-2</span><span class="swatch-v">#0f1830</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--accent)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--accent</span><span class="swatch-v">#4da3ff</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--accent-2)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--accent-2</span><span class="swatch-v">#2ee3c2</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--danger)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--danger</span><span class="swatch-v">#ff5b6e</span></span></div>
+          </div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>Типографика</h3>
+          <p class="muted">Шрифт: Inter (с запасным системным стеком). Шкала: от текста до заголовков.</p>
+          <div class="type-scale" aria-label="Примеры размеров шрифта">
+            <div class="t t--d1">Display / D1 — Заголовок</div>
+            <div class="t t--h1">H1 — Главный заголовок</div>
+            <div class="t t--h2">H2 — Заголовок секции</div>
+            <div class="t t--h3">H3 — Заголовок карточки</div>
+            <div class="t t--body">Body — Основной текст, читаемый на всех устройствах</div>
+            <div class="t t--small">Small — Подписи, вспомогательные элементы интерфейса</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card ui-kit-block">
+        <h3>Кнопки</h3>
+        <div class="ui-row">
+          <a class="btn btn--primary" href="#">Primary</a>
+          <a class="btn btn--secondary" href="#">Secondary</a>
+          <a class="btn btn--ghost" href="#">Ghost</a>
+          <a class="btn btn--danger" href="#">Danger</a>
+          <button class="btn btn--secondary" type="button" disabled>Disabled</button>
+          <a class="btn btn--link" href="#">Link →</a>
+        </div>
+        <div class="ui-row">
+          <a class="btn btn--primary btn--sm" href="#">Small</a>
+          <a class="btn btn--primary" href="#">Default</a>
+          <a class="btn btn--primary btn--lg" href="#">Large</a>
+        </div>
+      </div>
+
+      <div class="grid three">
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <svg class="i" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 4v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="tag">Карточка услуги</span>
+          </div>
+          <h3>Название услуги</h3>
+          <p class="muted">Короткое описание на 1–2 строки. Здесь важно держать одинаковую структуру и длину текста.</p>
+          <a class="btn btn--link" href="#">Подробнее →</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <svg class="i" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 14c2-5 3-7 5-7s3 2 5 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M5 14h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M6 19h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="tag">Иконки</span>
+          </div>
+          <h3>Единый стиль SVG</h3>
+          <p class="muted">Размер 20–24px, обводка 2px, скругления, цвет через <code>currentColor</code>.</p>
+          <div class="icon-row" aria-label="Примеры иконок">
+            <span class="icon-sample" aria-label="Иконка плюс">
+              <svg class="i" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="icon-sample" aria-label="Иконка чек">
+              <svg class="i" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12.5l3.2 3.2L18 7.9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="icon-sample" aria-label="Иконка молния">
+              <svg class="i" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 2L3 14h8l-1 8 11-14h-8l0-6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+        </article>
+
+        <form class="card form" action="#" method="post">
+          <h3>Формы</h3>
+          <p class="muted">Одинаковые отступы, высота, фокус‑кольцо и сообщения состояния.</p>
+          <div class="field">
+            <label for="ui-email">Email</label>
+            <input id="ui-email" name="ui-email" type="email" autocomplete="email" placeholder="name@email.com">
+          </div>
+          <div class="field">
+            <label for="ui-select">Тема</label>
+            <select id="ui-select" name="ui-select">
+              <option>Консультация</option>
+              <option>Проектирование</option>
+              <option>Сервис</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ui-textarea">Сообщение</label>
+            <textarea id="ui-textarea" name="ui-textarea" rows="3" placeholder="Коротко опишите запрос"></textarea>
+            <div class="help">Подсказка: можно указать сроки и исходные данные.</div>
+          </div>
+          <div class="field field--error">
+            <label for="ui-error">Поле с ошибкой</label>
+            <input id="ui-error" name="ui-error" type="text" placeholder="Пример валидации" value="">
+            <div class="help">Ошибка: заполните поле корректно.</div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="button">Отправить</button>
+            <button class="btn btn--secondary" type="reset">Сбросить</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card ui-kit-block">
+        <h3>Сетка макета</h3>
+        <p class="muted">Контейнер <code>--container</code> + адаптивные колонки. Ниже — визуальный пример 12‑колоночной сетки.</p>
+        <div class="layout-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
       </div>
     </section>
