@@ -60,7 +60,7 @@
         <p class="inner-lead">Единая сетка карточек, те же кнопки и акценты, что на главной странице.</p>
       </div>
 
-      <div class="grid three">
+      <div class="grid four">
         <article class="card service-card">
           <div class="service-top">
             <span class="icon-badge" aria-hidden="true">
@@ -182,7 +182,65 @@
           </ul>
           <a class="btn btn--link" href="contacts.html#feedback">Запросить формат →</a>
         </article>
+
+        <article class="card service-card" data-product="mycorrhiza">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </span>
+            <span class="tag">Продукт</span>
+          </div>
+          <h3>Микориза</h3>
+          <p class="muted">Биотехнологический продукт для улучшения роста растений через симбиоз с грибами.</p>
+          <ul class="service-list">
+            <li>Увеличение урожайности</li>
+            <li>Улучшение почвы</li>
+            <li>Экологическая безопасность</li>
+          </ul>
+          <a class="btn btn--link" href="#mycorrhiza-nav">Подробнее →</a>
+        </article>
       </div>
+
+      <section id="mycorrhiza-nav" class="section section--tight">
+        <div class="section-head">
+          <h2>Продукт "Микориза"</h2>
+          <p>Адаптивная навигация по разделам продукта</p>
+        </div>
+
+        <nav class="product-nav" aria-label="Навигация по продукту Микориза">
+          <a href="#mycorrhiza-overview" class="product-nav-item active">Обзор</a>
+          <a href="#mycorrhiza-benefits" class="product-nav-item">Преимущества</a>
+          <a href="#mycorrhiza-application" class="product-nav-item">Применение</a>
+          <a href="#mycorrhiza-contact" class="product-nav-item">Заказать</a>
+        </nav>
+
+        <div id="mycorrhiza-overview" class="product-section active">
+          <h3>Обзор продукта</h3>
+          <p>Микориза — биотехнологический продукт, основанный на симбиозе грибов и растений для улучшения роста и урожайности.</p>
+        </div>
+
+        <div id="mycorrhiza-benefits" class="product-section">
+          <h3>Преимущества</h3>
+          <ul>
+            <li>Увеличение урожайности до 30%</li>
+            <li>Улучшение структуры почвы</li>
+            <li>Экологическая безопасность</li>
+            <li>Снижение потребности в удобрениях</li>
+          </ul>
+        </div>
+
+        <div id="mycorrhiza-application" class="product-section">
+          <h3>Применение</h3>
+          <p>Рекомендуется для сельского хозяйства, садоводства и ландшафтного дизайна.</p>
+        </div>
+
+        <div id="mycorrhiza-contact" class="product-section">
+          <h3>Заказать продукт</h3>
+          <a class="btn btn--primary" href="contacts.html#feedback">Оставить заявку</a>
+        </div>
+      </section>
     </section>
 
     <section class="section section--contact" aria-labelledby="cta-services-title">
@@ -223,5 +281,6 @@
     </div>
   </footer>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
 </body>
 </html>
