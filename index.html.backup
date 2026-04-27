@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OcOO Biohitech вЂ” РёРЅР¶РµРЅРµСЂРЅС‹Рµ СЂРµС€РµРЅРёСЏ, СЌРєРѕР»РѕРіРёСЏ Рё Р±РёРѕС‚РµС…РЅРѕР»РѕРіРёРё. РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ, РІРЅРµРґСЂРµРЅРёРµ Рё СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ.">
+  <meta name="theme-color" content="#16a34a">
+  <title>OcOO Biohitech вЂ” Р“Р»Р°РІРЅР°СЏ</title>
+  
+  <!-- Performance optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://example.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;760;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <a class="brand" href="index.html" aria-label="OcOO Biohitech вЂ” РЅР° РіР»Р°РІРЅСѓСЋ">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/><circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">OcOO Biohitech</span>
+          <span class="brand-tagline">РРЅР¶РµРЅРµСЂРЅС‹Рµ СЂРµС€РµРЅРёСЏ вЂў Р­РєРѕР»РѕРіРёСЏ вЂў Р‘РёРѕС‚РµС…РЅРѕР»РѕРіРёРё</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="РћСЃРЅРѕРІРЅРѕРµ РјРµРЅСЋ">
+      <a href="index.html" aria-current="page">Р“Р»Р°РІРЅР°СЏ</a>
+      <a href="about.html">Рћ РєРѕРјРїР°РЅРёРё</a>
+      <a href="services.html">РЈСЃР»СѓРіРё</a>
+      <a href="contacts.html">РљРѕРЅС‚Р°РєС‚С‹</a>
+      <a href="gallery.html">Р“Р°Р»РµСЂРµСЏ</a>
+      <a href="sitemap.html" class="nav-sitemap">РљР°СЂС‚Р° СЃР°Р№С‚Р°</a>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn--ghost" href="#contacts">РџРѕР»СѓС‡РёС‚СЊ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ</a>
+      <a class="btn btn--primary" href="#contacts">РћСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">РљРѕРјРїР»РµРєСЃРЅС‹Р№ РїРѕРґС…РѕРґ вЂ” РѕС‚ Р°СѓРґРёС‚Р° РґРѕ РІРЅРµРґСЂРµРЅРёСЏ</p>
+          <h1 id="hero-title">РўРµС…РЅРѕР»РѕРіРёРё, РєРѕС‚РѕСЂС‹Рµ СѓР»СѓС‡С€Р°СЋС‚ РїСЂРѕРёР·РІРѕРґСЃС‚РІРѕ Рё СЌРєРѕР»РѕРіРёСЋ</h1>
+          <p class="hero-lead">РџСЂРѕРµРєС‚РёСЂСѓРµРј Рё РІРЅРµРґСЂСЏРµРј СЂРµС€РµРЅРёСЏ РґР»СЏ РїСЂРµРґРїСЂРёСЏС‚РёР№: РѕС‚ РёРЅР¶РµРЅРµСЂРЅС‹С… СЃРёСЃС‚РµРј РґРѕ Р±РёРѕС‚РµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёС… РїРѕРґС…РѕРґРѕРІ. РџСЂРѕР·СЂР°С‡РЅС‹Рµ СЌС‚Р°РїС‹, РєРѕРЅС‚СЂРѕР»СЊ РєР°С‡РµСЃС‚РІР°, СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#contacts">РџРѕР»СѓС‡РёС‚СЊ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ</a>
+            <a class="btn btn--secondary" href="#services">РЎРјРѕС‚СЂРµС‚СЊ СѓСЃР»СѓРіРё</a>
+            <a class="btn btn--link" href="about.html">Рћ РєРѕРјРїР°РЅРёРё в†’</a>
+          </div>
+
+          <div class="hero-metrics" role="list">
+            <div class="metric" role="listitem">
+              <div class="metric-value">10+</div>
+              <div class="metric-label">Р»РµС‚ РїСЂР°РєС‚РёРєРё</div>
+            </div>
+            <div class="metric" role="listitem">
+              <div class="metric-value">50+</div>
+              <div class="metric-label">РїСЂРѕРµРєС‚РѕРІ</div>
+            </div>
+            <div class="metric" role="listitem">
+              <div class="metric-value">6вЂ“12 С‡</div>
+              <div class="metric-label">РїРµСЂРІС‹Р№ РѕС‚РІРµС‚</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <div class="hero-card-top">
+              <span class="chip chip--ok">Р”РѕСЃС‚СѓРїРЅРѕ</span>
+              <span class="chip">РџРѕРґ РєР»СЋС‡</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="hero-visual-title">РљРѕСЂРѕС‚РєРѕ Рѕ С†РµРЅРЅРѕСЃС‚Рё</div>
+              <div class="hero-visual-text">РЎРЅРёР¶Р°РµРј СЂРёСЃРєРё РІРЅРµРґСЂРµРЅРёСЏ С‡РµСЂРµР· РїРѕРЅСЏС‚РЅС‹Рµ СЌС‚Р°РїС‹, СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ С‚СЂРµР±РѕРІР°РЅРёР№ Рё РєРѕРЅС‚СЂРѕР»СЊ СЂРµР·СѓР»СЊС‚Р°С‚Р°.</div>
+            </div>
+            <div class="hero-card-bottom">
+              <span class="mini">РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ</span>
+              <span class="dot" aria-hidden="true"></span>
+              <span class="mini">Р’РЅРµРґСЂРµРЅРёРµ</span>
+              <span class="dot" aria-hidden="true"></span>
+              <span class="mini">РЎРµСЂРІРёСЃ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-head">
+        <h2 id="about-title">Рћ РєРѕРјРїР°РЅРёРё</h2>
+        <p>Р¤РѕРєСѓСЃ РЅР° РёР·РјРµСЂРёРјРѕРј СЂРµР·СѓР»СЊС‚Р°С‚Рµ: СЌС„С„РµРєС‚РёРІРЅРѕСЃС‚СЊ РїСЂРѕС†РµСЃСЃРѕРІ, Р±РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ, СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРµ С‚СЂРµР±РѕРІР°РЅРёСЏРј Рё СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ РїРѕСЃР»Рµ Р·Р°РїСѓСЃРєР°.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card card--soft">
+          <h3>Р§РµРј РјС‹ РїРѕР»РµР·РЅС‹</h3>
+          <p>РџСЂРѕРІРѕРґРёРј РѕС†РµРЅРєСѓ Р·Р°РґР°С‡Рё, РїСЂРµРґР»Р°РіР°РµРј РЅРµСЃРєРѕР»СЊРєРѕ СЃС†РµРЅР°СЂРёРµРІ СЂРµС€РµРЅРёСЏ Рё РІС‹Р±РёСЂР°РµРј РѕРїС‚РёРјР°Р»СЊРЅС‹Р№ РїРѕ Р±СЋРґР¶РµС‚Сѓ Рё СЃСЂРѕРєР°Рј. Р”Р°Р»СЊС€Рµ вЂ” РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ, РїРѕСЃС‚Р°РІРєР°/РјРѕРЅС‚Р°Р¶ (РїСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё) Рё РІРІРѕРґ РІ СЌРєСЃРїР»СѓР°С‚Р°С†РёСЋ.</p>
+          <div class="list">
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>РђСѓРґРёС‚ Рё РїСЂРµРґРїСЂРѕРµРєС‚РЅРѕРµ РѕР±СЃР»РµРґРѕРІР°РЅРёРµ</span></div>
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ Рё СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ</span></div>
+            <div class="list-item"><span class="bullet" aria-hidden="true"></span><span>Р’РЅРµРґСЂРµРЅРёРµ Рё СЃРµСЂРІРёСЃРЅРѕРµ СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ</span></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>РџСЂРёРЅС†РёРїС‹ СЂР°Р±РѕС‚С‹</h3>
+          <p class="muted">РџРѕРЅСЏС‚РЅС‹Рµ СЌС‚Р°РїС‹ Рё РїСЂРµРґСЃРєР°Р·СѓРµРјРѕСЃС‚СЊ: С„РёРєСЃРёСЂСѓРµРј С‚СЂРµР±РѕРІР°РЅРёСЏ, СЃРѕРіР»Р°СЃСѓРµРј РєРѕРЅС‚СЂРѕР»СЊРЅС‹Рµ С‚РѕС‡РєРё, РґРѕРєСѓРјРµРЅС‚РёСЂСѓРµРј СЂРµС€РµРЅРёСЏ.</p>
+          <div class="steps" role="list">
+            <div class="step" role="listitem"><span class="step-n">01</span><span class="step-t">Р—Р°СЏРІРєР° Рё СѓС‚РѕС‡РЅРµРЅРёРµ РІРІРѕРґРЅС‹С…</span></div>
+            <div class="step" role="listitem"><span class="step-n">02</span><span class="step-t">РљРѕРЅС†РµРїС†РёСЏ Рё СЃРјРµС‚Р°</span></div>
+            <div class="step" role="listitem"><span class="step-n">03</span><span class="step-t">РџСЂРѕРµРєС‚/РІРЅРµРґСЂРµРЅРёРµ</span></div>
+            <div class="step" role="listitem"><span class="step-n">04</span><span class="step-t">РЎРґР°С‡Р° Рё РїРѕРґРґРµСЂР¶РєР°</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="section-head">
+        <h2 id="services-title">РЈСЃР»СѓРіРё</h2>
+        <p>РќРёР¶Рµ вЂ” РєР»СЋС‡РµРІС‹Рµ РЅР°РїСЂР°РІР»РµРЅРёСЏ. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РІС‹РЅРµСЃРµРЅС‹ РЅР° СЃС‚СЂР°РЅРёС†Сѓ СѓСЃР»СѓРі.</p>
+      </div>
+
+      <div class="grid three">
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <img src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РРЅР¶РµРЅРµСЂРёСЏ">
+            </span>
+            <span class="tag">РРЅР¶РµРЅРµСЂРёСЏ</span>
+          </div>
+          <h3>РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ Рё Р°СѓРґРёС‚</h3>
+          <p class="muted">РћР±СЃР»РµРґРѕРІР°РЅРёРµ, СЂР°СЃС‡РµС‚, РїРѕРґР±РѕСЂ СЂРµС€РµРЅРёР№, РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ Рё СЃРѕРіР»Р°СЃРѕРІР°РЅРёСЏ.</p>
+          <a class="btn btn--link" href="services.html">РџРѕРґСЂРѕР±РЅРµРµ в†’</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <img src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="Р‘РёРѕС‚РµС…">
+            </span>
+            <span class="tag">Р‘РёРѕС‚РµС…</span>
+          </div>
+          <h3>РўРµС…РЅРѕР»РѕРіРёС‡РµСЃРєРёРµ СЂРµС€РµРЅРёСЏ</h3>
+          <p class="muted">РџРѕРґР±РѕСЂ Рё РІРЅРµРґСЂРµРЅРёРµ РїСЂРѕС†РµСЃСЃРѕРІ, РѕРїС‚РёРјРёР·Р°С†РёСЏ РїР°СЂР°РјРµС‚СЂРѕРІ, СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ.</p>
+          <a class="btn btn--link" href="services.html">РџРѕРґСЂРѕР±РЅРµРµ в†’</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <img src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РЎРµСЂРІРёСЃ">
+            </span>
+            <span class="tag">РЎРµСЂРІРёСЃ</span>
+          </div>
+          <h3>РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ Рё РєРѕРЅС‚СЂРѕР»СЊ</h3>
+          <p class="muted">РџРѕРґРґРµСЂР¶РєР° РїРѕСЃР»Рµ Р·Р°РїСѓСЃРєР°, СЂРµРіР»Р°РјРµРЅС‚С‹, РѕР±СѓС‡РµРЅРёРµ, РєРѕРЅС‚СЂРѕР»СЊ РєР°С‡РµСЃС‚РІР°.</p>
+          <a class="btn btn--link" href="services.html">РџРѕРґСЂРѕР±РЅРµРµ в†’</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="advantages" aria-labelledby="advantages-title">
+      <div class="section-head">
+        <h2 id="advantages-title">РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</h2>
+        <p>РќРµР±РѕР»СЊС€РѕР№ СЃРїРёСЃРѕРє, РєРѕС‚РѕСЂС‹Р№ С„РѕСЂРјРёСЂСѓРµС‚ РґРѕРІРµСЂРёРµ Рё РѕС‚РІРµС‡Р°РµС‚ РЅР° вЂњРїРѕС‡РµРјСѓ РІС‹вЂќ.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>РџСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ СЌС‚Р°РїРѕРІ</h3>
+          <p class="muted">Р¤РёРєСЃРёСЂСѓРµРј С‚СЂРµР±РѕРІР°РЅРёСЏ Рё РєСЂРёС‚РµСЂРёРё РїСЂРёРµРјРєРё РґРѕ СЃС‚Р°СЂС‚Р° СЂР°Р±РѕС‚, С‡С‚РѕР±С‹ СЂРµР·СѓР»СЊС‚Р°С‚ Р±С‹Р» РїСЂРµРґСЃРєР°Р·СѓРµРјС‹Рј.</p>
+          <div class="adv-list">
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>РџР»Р°РЅ-РіСЂР°С„РёРє Рё РєРѕРЅС‚СЂРѕР»СЊРЅС‹Рµ С‚РѕС‡РєРё</span></div>
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ Рё РѕС‚С‡РµС‚РЅРѕСЃС‚СЊ</span></div>
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>РљРѕРјРјСѓРЅРёРєР°С†РёСЏ вЂњРѕРґРЅРёРј РѕРєРЅРѕРјвЂќ</span></div>
+          </div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>РџСЂР°РєС‚РёС‡РЅРѕСЃС‚СЊ Рё Р±РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ</h3>
+          <p class="muted">РџРѕРґР±РёСЂР°РµРј СЂРµС€РµРЅРёСЏ, РєРѕС‚РѕСЂС‹Рµ СЂРµР°Р»СЊРЅРѕ РјРѕР¶РЅРѕ РІРЅРµРґСЂРёС‚СЊ Рё РѕР±СЃР»СѓР¶РёРІР°С‚СЊ РЅР° РѕР±СЉРµРєС‚Рµ.</p>
+          <div class="adv-list">
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>РЈС‡РµС‚ СѓСЃР»РѕРІРёР№ СЌРєСЃРїР»СѓР°С‚Р°С†РёРё</span></div>
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>РЎРЅРёР¶РµРЅРёРµ СЂРёСЃРєРѕРІ РїСЂРѕСЃС‚РѕСЏ</span></div>
+            <div class="adv"><span class="check" aria-hidden="true"></span><span>РЎРµСЂРІРёСЃ Рё СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-head">
+        <h2 id="gallery-title">Р“Р°Р»РµСЂРµСЏ</h2>
+        <p>РџСЂРёРјРµСЂС‹ РѕР±СЉРµРєС‚РѕРІ, РїСЂРѕС†РµСЃСЃРѕРІ Рё РєРѕРјР°РЅРґС‹. РџРѕР»РЅС‹Р№ СЂР°Р·РґРµР» вЂ” РЅР° РѕС‚РґРµР»СЊРЅРѕР№ СЃС‚СЂР°РЅРёС†Рµ.</p>
+      </div>
+
+      <div class="gallery-actions">
+        <a class="btn btn--secondary" href="gallery.html">РћС‚РєСЂС‹С‚СЊ РіР°Р»РµСЂРµСЋ</a>
+      </div>
+      <div class="gallery" role="list">
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 1 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">РћР±СЉРµРєС‚ / РїСЂРѕС†РµСЃСЃ</span>
+        </a>
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 2 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">РљРѕРјР°РЅРґР°</span>
+        </a>
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 3 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">РРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂР°</span>
+        </a>
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 4 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">Р РµР·СѓР»СЊС‚Р°С‚</span>
+        </a>
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 5 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">РџСЂРѕРёР·РІРѕРґСЃС‚РІРѕ</span>
+        </a>
+        <a class="gallery-item" role="listitem" href="#" aria-label="Р¤РѕС‚Рѕ 6 (РїСЂРёРјРµСЂ)">
+          <span class="gallery-ph" aria-hidden="true"></span>
+          <span class="gallery-cap">Р›Р°Р±РѕСЂР°С‚РѕСЂРёСЏ</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contacts" aria-labelledby="contacts-title">
+      <div class="section-head">
+        <h2 id="contacts-title">РљРѕРЅС‚Р°РєС‚С‹</h2>
+        <p>РћСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ вЂ” РјС‹ СѓС‚РѕС‡РЅРёРј РІРІРѕРґРЅС‹Рµ Рё РїСЂРµРґР»РѕР¶РёРј СЃР»РµРґСѓСЋС‰РёР№ С€Р°Рі. РћР±С‹С‡РЅРѕ РѕС‚РІРµС‡Р°РµРј РІ С‚РµС‡РµРЅРёРµ 12-20 С‡Р°СЃРѕРІ.</p>
+      </div>
+
+      <div class="grid two">
+        <form class="card form" action="#" method="post">
+          <div class="field">
+            <label for="name">РРјСЏ</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="РљР°Рє Рє РІР°Рј РѕР±СЂР°С‰Р°С‚СЊСЃСЏ" required>
+          </div>
+          <div class="field">
+            <label for="contact">РўРµР»РµС„РѕРЅ РёР»Рё email</label>
+            <input id="contact" name="contact" type="text" autocomplete="email" placeholder="+996вЂ¦ / name@email" required>
+          </div>
+          <div class="field">
+            <label for="msg">РљРѕСЂРѕС‚РєРѕ Рѕ Р·Р°РґР°С‡Рµ</label>
+            <textarea id="msg" name="msg" rows="4" placeholder="Р§С‚Рѕ РЅСѓР¶РЅРѕ СЃРґРµР»Р°С‚СЊ, СЃСЂРѕРєРё, РёСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="submit">РћС‚РїСЂР°РІРёС‚СЊ Р·Р°СЏРІРєСѓ</button>
+            <a class="btn btn--ghost" href="contacts.html">Р’СЃРµ РєРѕРЅС‚Р°РєС‚С‹ в†’</a>
+          </div>
+          <p class="form-note">РќР°Р¶РёРјР°СЏ вЂњРћС‚РїСЂР°РІРёС‚СЊвЂќ, РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РґР°РЅРЅС‹С… РґР»СЏ РѕС‚РІРµС‚Р° РЅР° Р·Р°СЏРІРєСѓ.</p>
+        </form>
+
+        <div class="card card--soft contact-card">
+          <h3>РЎРІСЏР·Р°С‚СЊСЃСЏ РЅР°РїСЂСЏРјСѓСЋ</h3>
+          <div class="contact-lines">
+            <div class="contact-line"><span class="contact-k">Email</span><a class="contact-v" href="mailto:info@example.com">info@example.com</a></div>
+            <div class="contact-line"><span class="contact-k">РўРµР»РµС„РѕРЅ</span><a class="contact-v" href="tel:+996 551 404 213">+996 551 404 213</a></div>
+            <div class="contact-line"><span class="contact-k">Р“РѕСЂРѕРґ</span><span class="contact-v">вЂ”</span></div>
+          </div>
+          <div class="map-ph" aria-hidden="true">РљР°СЂС‚Р° / СЃС…РµРјР° РїСЂРѕРµР·РґР°</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ui-kit" id="ui-kit" aria-labelledby="ui-kit-title">
+      <div class="section-head">
+        <h2 id="ui-kit-title">UIвЂ‘РєРёС‚ (Р±Р°Р·Р° РґР»СЏ Р±СѓРґСѓС‰РµРіРѕ СЃР°Р№С‚Р°)</h2>
+        <p>Р•РґРёРЅС‹Р№ РЅР°Р±РѕСЂ С‚РѕРєРµРЅРѕРІ Рё РєРѕРјРїРѕРЅРµРЅС‚РѕРІ: РїР°Р»РёС‚СЂР°, С‚РёРїРѕРіСЂР°С„РёРєР°, СЃРµС‚РєР°, РєРЅРѕРїРєРё, РєР°СЂС‚РѕС‡РєРё СѓСЃР»СѓРі, РёРєРѕРЅРєРё Рё С„РѕСЂРјС‹. Р­С‚РѕС‚ Р±Р»РѕРє РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР°Рє вЂњРІРёС‚СЂРёРЅСѓвЂќ Рё РёСЃС‚РѕС‡РЅРёРє СЃС‚Р°РЅРґР°СЂС‚РѕРІ.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Р¦РІРµС‚РѕРІР°СЏ РїР°Р»РёС‚СЂР°</h3>
+          <p class="muted">РўРѕРєРµРЅС‹ РІ CSSвЂ‘РїРµСЂРµРјРµРЅРЅС‹С…: С„РѕРЅ/РїРѕРІРµСЂС…РЅРѕСЃС‚Рё/РіСЂР°РЅРёС†С‹/Р°РєС†РµРЅС‚С‹/СЃС‚Р°С‚СѓСЃС‹.</p>
+          <div class="swatches" role="list" aria-label="Р¦РІРµС‚РѕРІС‹Рµ С‚РѕРєРµРЅС‹">
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--bg)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--bg</span><span class="swatch-v">#0b1020</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--surface)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--surface</span><span class="swatch-v">#121b32</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--surface-2)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--surface-2</span><span class="swatch-v">#0f1830</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--accent)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--accent</span><span class="swatch-v">#4da3ff</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--accent-2)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--accent-2</span><span class="swatch-v">#2ee3c2</span></span></div>
+            <div class="swatch" role="listitem"><span class="swatch-c" style="--c: var(--danger)" aria-hidden="true"></span><span class="swatch-t"><span class="swatch-n">--danger</span><span class="swatch-v">#ff5b6e</span></span></div>
+          </div>
+        </div>
+
+        <div class="card card--soft">
+          <h3>РўРёРїРѕРіСЂР°С„РёРєР°</h3>
+          <p class="muted">РЁСЂРёС„С‚: Inter (СЃ Р·Р°РїР°СЃРЅС‹Рј СЃРёСЃС‚РµРјРЅС‹Рј СЃС‚РµРєРѕРј). РЁРєР°Р»Р°: РѕС‚ С‚РµРєСЃС‚Р° РґРѕ Р·Р°РіРѕР»РѕРІРєРѕРІ.</p>
+          <div class="type-scale" aria-label="РџСЂРёРјРµСЂС‹ СЂР°Р·РјРµСЂРѕРІ С€СЂРёС„С‚Р°">
+            <div class="t t--d1">Display / D1 вЂ” Р—Р°РіРѕР»РѕРІРѕРє</div>
+            <div class="t t--h1">H1 вЂ” Р“Р»Р°РІРЅС‹Р№ Р·Р°РіРѕР»РѕРІРѕРє</div>
+            <div class="t t--h2">H2 вЂ” Р—Р°РіРѕР»РѕРІРѕРє СЃРµРєС†РёРё</div>
+            <div class="t t--h3">H3 вЂ” Р—Р°РіРѕР»РѕРІРѕРє РєР°СЂС‚РѕС‡РєРё</div>
+            <div class="t t--body">Body вЂ” РћСЃРЅРѕРІРЅРѕР№ С‚РµРєСЃС‚, С‡РёС‚Р°РµРјС‹Р№ РЅР° РІСЃРµС… СѓСЃС‚СЂРѕР№СЃС‚РІР°С…</div>
+            <div class="t t--small">Small вЂ” РџРѕРґРїРёСЃРё, РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РёРЅС‚РµСЂС„РµР№СЃР°</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card ui-kit-block">
+        <h3>РљРЅРѕРїРєРё</h3>
+        <div class="ui-row">
+          <a class="btn btn--primary" href="#">Primary</a>
+          <a class="btn btn--secondary" href="#">Secondary</a>
+          <a class="btn btn--ghost" href="#">Ghost</a>
+          <a class="btn btn--danger" href="#">Danger</a>
+          <button class="btn btn--secondary" type="button" disabled>Disabled</button>
+          <a class="btn btn--link" href="#">Link в†’</a>
+        </div>
+        <div class="ui-row">
+          <a class="btn btn--primary btn--sm" href="#">Small</a>
+          <a class="btn btn--primary" href="#">Default</a>
+          <a class="btn btn--primary btn--lg" href="#">Large</a>
+        </div>
+      </div>
+
+      <div class="grid three">
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <img src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РљР°СЂС‚РѕС‡РєР° СѓСЃР»СѓРіРё">
+            </span>
+            <span class="tag">РљР°СЂС‚РѕС‡РєР° СѓСЃР»СѓРіРё</span>
+          </div>
+          <h3>РќР°Р·РІР°РЅРёРµ СѓСЃР»СѓРіРё</h3>
+          <p class="muted">РљРѕСЂРѕС‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ РЅР° 1вЂ“2 СЃС‚СЂРѕРєРё. Р—РґРµСЃСЊ РІР°Р¶РЅРѕ РґРµСЂР¶Р°С‚СЊ РѕРґРёРЅР°РєРѕРІСѓСЋ СЃС‚СЂСѓРєС‚СѓСЂСѓ Рё РґР»РёРЅСѓ С‚РµРєСЃС‚Р°.</p>
+          <a class="btn btn--link" href="#">РџРѕРґСЂРѕР±РЅРµРµ в†’</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-top">
+            <span class="icon-badge" aria-hidden="true">
+              <img src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РРєРѕРЅРєРё">
+            </span>
+            <span class="tag">РРєРѕРЅРєРё</span>
+          </div>
+          <h3>Р•РґРёРЅС‹Р№ СЃС‚РёР»СЊ SVG</h3>
+          <p class="muted">Р Р°Р·РјРµСЂ 20вЂ“24px, РѕР±РІРѕРґРєР° 2px, СЃРєСЂСѓРіР»РµРЅРёСЏ, С†РІРµС‚ С‡РµСЂРµР· <code>currentColor</code>.</p>
+          <div class="icon-row" aria-label="РџСЂРёРјРµСЂС‹ РёРєРѕРЅРѕРє">
+            <span class="icon-sample" aria-label="РРєРѕРЅРєР° РїР»СЋСЃ">
+              <img class="i" src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РџР»СЋСЃ">
+            </span>
+            <span class="icon-sample" aria-label="РРєРѕРЅРєР° С‡РµРє">
+              <img class="i" src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="Р§РµРє">
+            </span>
+            <span class="icon-sample" aria-label="РРєРѕРЅРєР° РјРѕР»РЅРёСЏ">
+              <img class="i" src="РќРѕРІР°СЏ РїР°РїРєР°/Photo_2026-04-07_17-21-18.jpg" alt="РњРѕР»РЅРёСЏ">
+            </span>
+          </div>
+        </article>
+
+        <form class="card form" action="#" method="post">
+          <h3>Р¤РѕСЂРјС‹</h3>
+          <p class="muted">РћРґРёРЅР°РєРѕРІС‹Рµ РѕС‚СЃС‚СѓРїС‹, РІС‹СЃРѕС‚Р°, С„РѕРєСѓСЃвЂ‘РєРѕР»СЊС†Рѕ Рё СЃРѕРѕР±С‰РµРЅРёСЏ СЃРѕСЃС‚РѕСЏРЅРёСЏ.</p>
+          <div class="field">
+            <label for="ui-email">Email</label>
+            <input id="ui-email" name="ui-email" type="email" autocomplete="email" placeholder="name@email.com">
+          </div>
+          <div class="field">
+            <label for="ui-select">РўРµРјР°</label>
+            <select id="ui-select" name="ui-select">
+              <option>РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ</option>
+              <option>РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ</option>
+              <option>РЎРµСЂРІРёСЃ</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ui-textarea">РЎРѕРѕР±С‰РµРЅРёРµ</label>
+            <textarea id="ui-textarea" name="ui-textarea" rows="3" placeholder="РљРѕСЂРѕС‚РєРѕ РѕРїРёС€РёС‚Рµ Р·Р°РїСЂРѕСЃ"></textarea>
+            <div class="help">РџРѕРґСЃРєР°Р·РєР°: РјРѕР¶РЅРѕ СѓРєР°Р·Р°С‚СЊ СЃСЂРѕРєРё Рё РёСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ.</div>
+          </div>
+          <div class="field field--error">
+            <label for="ui-error">РџРѕР»Рµ СЃ РѕС€РёР±РєРѕР№</label>
+            <input id="ui-error" name="ui-error" type="text" placeholder="РџСЂРёРјРµСЂ РІР°Р»РёРґР°С†РёРё" value="">
+            <div class="help">РћС€РёР±РєР°: Р·Р°РїРѕР»РЅРёС‚Рµ РїРѕР»Рµ РєРѕСЂСЂРµРєС‚РЅРѕ.</div>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn--primary" type="button">РћС‚РїСЂР°РІРёС‚СЊ</button>
+            <button class="btn btn--secondary" type="reset">РЎР±СЂРѕСЃРёС‚СЊ</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card ui-kit-block">
+        <h3>РЎРµС‚РєР° РјР°РєРµС‚Р°</h3>
+        <p class="muted">РљРѕРЅС‚РµР№РЅРµСЂ <code>--container</code> + Р°РґР°РїС‚РёРІРЅС‹Рµ РєРѕР»РѕРЅРєРё. РќРёР¶Рµ вЂ” РІРёР·СѓР°Р»СЊРЅС‹Р№ РїСЂРёРјРµСЂ 12вЂ‘РєРѕР»РѕРЅРѕС‡РЅРѕР№ СЃРµС‚РєРё.</p>
+        <div class="layout-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a class="brand brand--footer" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 22.5c3.8 5.7 13 5.7 18 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 17.2c.9-2.3 2.9-3.6 6-3.6s5.1 1.3 6 3.6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="14.5" cy="24.5" r="1.5" fill="currentColor"/>
+              <circle cx="25.5" cy="24.5" r="1.5" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">OcOO Biohitech</span>
+            <span class="brand-tagline">РРЅР¶РµРЅРµСЂРЅС‹Рµ СЂРµС€РµРЅРёСЏ вЂў Р­РєРѕР»РѕРіРёСЏ вЂў Р‘РёРѕС‚РµС…РЅРѕР»РѕРіРёРё</span>
+          </span>
+        </a>
+        <p class="footer-note">В© <span id="y">2026</span> OcOO Biohitech</p>
+      </div>
+      <div class="footer-right">
+        <a href="#contacts">РћСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ</a>
+        <a href="gallery.html">Р“Р°Р»РµСЂРµСЏ</a>
+        <a href="sitemap.html">РљР°СЂС‚Р° СЃР°Р№С‚Р°</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
